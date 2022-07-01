@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Title Tag -->
+		<title>2K Vision Group &minus; Administration du site</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
+
+		<!-- Bootstrap Css -->
+		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+		
+		{% block stylesheets %}{% endblock %}
+	</head>
+
+
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed">
+			<div class="container">
+				<a class="navbar-brand" href="#">Administration</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="{{ path('service.index') }}"> Services </a>
+						<a class="nav-link" href="{{ path('team.index') }}"> Equipes </a>
+						<a class="nav-link" href="{{ path('blog.index') }}"> Blogs </a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		{# CONTENT #}
+		<div class="container mt-4 p-4">
+			{% block content %}
+			{% endblock %}
+		</div>
+
+		<!-- Jquery -->
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
+		<!-- Popper JS -->
+		<script src="{{ asset('js/popper.min.js') }}"></script>
+		<!-- Bootstrap JS -->
+		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+		
+		{% block javascripts %}{% endblock %}
+	</body>
+</html>

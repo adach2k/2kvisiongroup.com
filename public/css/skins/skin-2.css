@@ -1,0 +1,20 @@
+.topbar .phone p i,.header .nav .drop-down li a:hover,.header.style2 .nav .drop-down li:hover a,.header.style2.sticky .nav .drop-down li:hover a,.hero-area .hero-text h4 span,.hero-popup .video-popup,.single-feature span,.single-feature i,.single-service .icon,.single-service h2:hover a,.single-service .elena-btn:hover,.service-content h1:hover a,.feature-content ul li:hover,.service-documents ul li:hover a,.skill-main .skill-title h2 span,.call-video .video-popup,.project-brochure a i:hover,.countdown .count-title h2 span,.single-count i,.single-testimonial i,.blog-meta span i,.blog-meta span a:hover,.blog-comments .single-comments .meta i,.blog-comments-form label span,.pagination li.prev a:hover,.pagination li.next a:hover,.sidebar-main .categories-inner li a:hover,.sidebar-main .signle-popular h4 a:hover,.consulting .form-area h2 i,.about-us .about-title h2 span,.single-plan:hover .bg-number,.single-team .team-social a:hover,.single-team .member-name h4,.error-page .error-inner h2 span,.contact .single-address i,.single-widget ul li:hover,.single-widget ul li a:hover,.footer .copyright .text a:hover,.footer .copyright a,.elena-options .icon{
+	color:#1abc9c
+}
+
+.header .nav li.active a,.header .nav li:hover a,.header .search-area a:hover,.header .search-form button,.hero-popup .video-popup:hover,.hero-slider .owl-controls .owl-dot.active span,.hero-slider .owl-controls .owl-dot:hover span,.single-feature:hover::before,.single-feature:hover i,.single-service:hover .icon,.single-service h2:hover:before,.service-gallery .owl-nav div:hover,.video-image .video-popup:hover,.feature-content ul li i,.services-sidebar .single-sidebar h2::before,.service-category ul li:hover a,.service-category ul li.active a,.service-contact ul i,.service-documents ul li:hover i,.experience,.experience-img .exper-text,.skill-main .progress .progress-bar,.call-video .video-popup:hover,.portfolio-single .hover-content::before,.portfolio .portfolio-nav li:hover,.portfolio .portfolio-nav li.active,.portfolio-slider .owl-nav div:hover,.portfolio-gallery .owl-controls .owl-nav div:hover,.portfolio-info::before,.project-brochure a i,.single-count:hover i,.single-testimonial .client-info span::before,.testimonial-carousel .owl-nav div:hover,.single-blog .date a,.blog-single-post blockquote::before,.blog-comments .single-comments .reply,.pagination li.active a,.pagination li:hover a,.sidebar-main .single-widget h2::before,.sidebar-main .search .form button,.sidebar-main .signle-popular h4::before,.sidebar-main .tags ul li a:hover,.sidebar-main .subscribe,.consulting .consult-right:before,.consulting .nice-select .list li:hover,.about-us .single-video i,.single-plan .bg-number,.single-faq .faq-title a::before,.error-page .error-search-form .elena-btn,.footer .single-widget h2::before,.section-title h1::before,.elena-btn::before,.footer .social li:hover a,.footer .social li.active a,.slicknav_menu .slicknav_nav,.slicknav_btn:hover,.mfp-iframe-holder .mfp-close:hover,.call-action::after,.sk-cube-grid .sk-cube,#scrollUp:hover{
+	background-color:#1abc9c;
+}
+
+.single-service .icon,.single-testimonial:hover .client-info img,.blog-comments-form .form-group input:hover,.blog-comments-form .form-group textarea:hover,.sidebar-main .search .form:hover input,.single-client:hover img,.single-plan:hover .bg-number,.single-team:hover img,.contact .form-group input:hover,.contact .form-group textarea:hover,.elena-btn.bordered{
+	border-color:#1abc9c;
+}
+.header .nav .drop-down,.single-faq .faq-body{
+	border-top-color:#1abc9c;
+}
+.blog-single-post blockquote{
+	border-left-color:#1abc9c;
+}
+.topbar,.clients-slider,.single-team{
+	border-bottom-color:#1abc9c;
+}

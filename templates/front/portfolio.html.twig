@@ -1,0 +1,180 @@
+{% extends "main.html.twig" %}
+
+{% block body %}
+  {# Breadcrumbs #}
+	<section class="breadcrumbs" style="background-image:url('images/Banner-1.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 pt-4">
+					{# <h2>About Information</h2> #}
+					<ul class="bread-list pt-2 mt-5">
+						<li><a href="{{ path('home') }}">Home</a></li>
+						<li class="active"><a href="{{ path('contact') }}">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio grid section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-12">
+					<div class="section-title">
+						<span class="title-bg">Portfolio</span>
+						<h1>Projets Réalisés</h1>
+						<p>Nam eleifend, turpis ac laoreet tincidunt, arcu purus ultricies nisl, quis molestie nibh lacus et dui. Nunc efficitur turpis lorem, bibendum dictum libero ornare a. Proin quis metus massa.</p><p>
+					</p></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<!-- Project Nav -->
+					<ul id="portfolio-nav" class="portfolio-nav tr-list list-inline cbp-l-filters-work">
+						<li data-filter="*" class="cbp-filter-item active">All</li>
+						<li data-filter=".business" class="cbp-filter-item">Business</li>
+						<li data-filter=".financial" class="cbp-filter-item">Finacial</li>
+						<li data-filter=".consulting" class="cbp-filter-item">Consulting</li>
+						<li data-filter=".video" class="cbp-filter-item">Video</li>
+						<li data-filter=".animation" class="cbp-filter-item">Animation</li>
+					</ul>
+					<!--/ End Project Nav -->
+				</div>
+			</div>
+			<div id="portfolio-grid" class="portfolio-item-grid">	
+				<div class="cbp-item business financial">
+					<!-- Single Portfolio -->
+					<div class="portfolio-single">
+						<!-- Portfolio Head -->
+						<div class="portfolio-head">
+							<img src="images/portfolio/portfolio-grid-1.jpg" alt="#">
+						</div>
+						<!-- Hover Content -->
+						<div class="hover-content overlay">
+							<div class="hover-element">
+								<h4><a href="portfolio-single.html">Modern Design</a></h4>
+								<p>laoreet tincidunt, arcu purus ultricies nisl, quis molestie Point of Sale hardwares lifetime turpis ac laoree turpis ac laoreet tincidunt Proin</p>
+								<!-- Portfolio Button -->
+								<div class="button">
+									<a href="portfolio-single.html" class="primary"><i class="fa fa-send"></i></a>
+									<a data-fancybox="gallery" href="images/portfolio/portfolio-grid-1.jpg"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Single Portfolio -->
+				</div>
+				<div class="cbp-item business consulting video">
+					<!-- Single Portfolio -->
+					<div class="portfolio-single">
+						<!-- Portfolio Head -->
+						<div class="portfolio-head">
+							<img src="images/portfolio/portfolio-grid-2.jpg" alt="#">
+						</div>
+						<!-- Hover Content -->
+						<div class="hover-content overlay">
+							<div class="hover-element">
+								<h4><a href="portfolio-single.html">Creative Works</a></h4>
+								<p>laoreet tincidunt, arcu purus ultricies nisl, quis molestie Point of Sale hardwares lifetime turpis ac laoree turpis ac laoreet tincidunt Proin</p>
+								<!-- Portfolio Button -->
+								<div class="button">
+									<a href="portfolio-single.html" class="primary"><i class="fa fa-send"></i></a>
+									<a data-fancybox="gallery" href="images/portfolio/portfolio-grid-2.jpg"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Single Portfolio -->
+				</div>
+				<div class="cbp-item financial animation">
+					<!-- Single Portfolio -->
+					<div class="portfolio-single">
+						<!-- Portfolio Head -->
+						<div class="portfolio-head">
+							<img src="images/portfolio/portfolio-grid-3.jpg" alt="#">
+						</div>
+						<!-- Hover Content -->
+						<div class="hover-content overlay">
+							<div class="hover-element">
+								<h4><a href="portfolio-single.html">Animation Mockup</a></h4>
+								<p>laoreet tincidunt, arcu purus ultricies nisl, quis molestie Point of Sale hardwares lifetime turpis ac laoree turpis ac laoreet tincidunt Proin</p>
+								<!-- Portfolio Button -->
+								<div class="button">
+									<a href="portfolio-single.html" class="primary"><i class="fa fa-send"></i></a>
+									<a data-fancybox="gallery" href="images/portfolio/portfolio-grid-3.jpg"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Single Portfolio -->
+				</div>
+				<div class="cbp-item business video">
+					<!-- Single Portfolio -->
+					<div class="portfolio-single">
+						<!-- Portfolio Head -->
+						<div class="portfolio-head">
+							<img src="images/portfolio/portfolio-grid-4.jpg" alt="#">
+						</div>
+						<!-- Hover Content -->
+						<div class="hover-content overlay">
+							<div class="hover-element">
+								<h4><a href="portfolio-single.html">Creative Design</a></h4>
+								<p>laoreet tincidunt, arcu purus ultricies nisl, quis molestie Point of Sale hardwares lifetime turpis ac laoree turpis ac laoreet tincidunt Proin</p>
+								<!-- Portfolio Button -->
+								<div class="button">
+									<a href="portfolio-single.html" class="primary"><i class="fa fa-send"></i></a>
+									<a data-fancybox="gallery" href="images/portfolio/portfolio-grid-4.jpg"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Single Portfolio -->
+				</div>
+				<div class="cbp-item financial">
+					<!-- Single Portfolio -->
+					<div class="portfolio-single">
+						<!-- Portfolio Head -->
+						<div class="portfolio-head">
+							<img src="images/portfolio/portfolio-grid-5.jpg" alt="#">
+						</div>
+						<!-- Hover Content -->
+						<div class="hover-content overlay">
+							<div class="hover-element">
+								<h4><a href="portfolio-single.html">Video Editing</a></h4>
+								<p>laoreet tincidunt, arcu purus ultricies nisl, quis molestie Point of Sale hardwares lifetime turpis ac laoree turpis ac laoreet tincidunt Proin</p>
+								<!-- Portfolio Button -->
+								<div class="button">
+									<a href="portfolio-single.html" class="primary"><i class="fa fa-send"></i></a>
+									<a data-fancybox="gallery" href="images/portfolio/portfolio-grid-5.jpg"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Single Portfolio -->
+				</div>
+				<div class="cbp-item business consulting">
+					<!-- Single Portfolio -->
+					<div class="portfolio-single">
+						<!-- Portfolio Head -->
+						<div class="portfolio-head">
+							<img src="images/portfolio/portfolio-grid-6.jpg" alt="#">
+						</div>
+						<!-- Hover Content -->
+						<div class="hover-content overlay">
+							<div class="hover-element">
+								<h4><a href="portfolio-single.html">Video Editing</a></h4>
+								<p>laoreet tincidunt, arcu purus ultricies nisl, quis molestie Point of Sale hardwares lifetime turpis ac laoree turpis ac laoreet tincidunt Proin</p>
+								<!-- Portfolio Button -->
+								<div class="button">
+									<a href="portfolio-single.html" class="primary"><i class="fa fa-send"></i></a>
+									<a data-fancybox="gallery" href="images/portfolio/portfolio-grid-5.jpg"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Single Portfolio -->
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

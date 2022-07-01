@@ -1,0 +1,21 @@
+{{ form_start(form) }}
+	<div class="form-group">
+		<label for="exampleInputEmail1">Titre</label>
+		{{ form_row(form.title) }}
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputEmail1">Description</label>
+		{{ form_row(form.description) }}
+	</div>
+
+	<div class="form-group">
+		<label for="exampleFormControlFile1">Choisir une image</label>
+		{{ form_row(form.imageFile) }}
+		{% if service.imageName %}
+			<img src="{{ vich_uploader_asset(service, 'imageFile')}}" alt="service image" width="250px" height="auto">
+		{% endif %}
+	</div>
+
+	<button class="btn btn-primary"> Ajouter </button>
+{{ form_end(form) }}

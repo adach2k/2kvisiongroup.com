@@ -1,0 +1,166 @@
+{% extends "main.html.twig" %}
+
+{% block body %}
+
+  {# Breadcrumbs #}
+	<section class="breadcrumbs" style="background-image:url('images/Banner-1.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 pt-4">
+					{# <h2>About Information</h2> #}
+					<ul class="bread-list pt-2 mt-5">
+						<li><a href="{{ path('home') }}">Home</a></li>
+						<li class="active"><a href="{{ path('contact') }}">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	{# Start Contact #}
+	<section class="contact section">
+		<div class="container">
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="col-lg-8 col-md-8 col-12">
+					<div class="contact-title">
+						<h2>Quick Contact</h2>
+						<p>Nam eleifend, turpis ac laoreet tincidunt, arcu purus ultricies nisl, quis molestie </p>
+					</div>
+					<form class="form" method="post" action="mail/mail.php">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="name" placeholder="Full Name" required="required">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="email" name="email" placeholder="Your Email" required="required">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="subject" placeholder="Type subject here" required="required">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="Company" placeholder="Type subject here" required="required">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea name="message" rows="6" placeholder="Type Your Message Here" ></textarea>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group button">	
+									<button type="submit" class="elena-btn primary">Send Message</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!--/ End Contact Form -->
+				<div class="col-lg-4 col-md-4 col-12">
+					<div class="address-inner">
+						<div class="contact-title">
+							<h2>Office Address</h2>
+							<p>Nam eleifend, turpis ac laoreet tincidunt, arcu purus ultricies nisl, quis molestie All users on MySpace will know that there are millions of people out there.</p>
+						</div>
+						<div class="single-address">
+							<i class="fa fa-map-marker"></i>
+							<h4>Our Address</h4>
+							<p>Sacré-coeur 3 - VDN, Dakar.</p>
+						</div>
+						<div class="single-address">
+							<i class="fa fa-envelope"></i>
+							<h4>Email Address</h4>
+							<p><a href="mailto:info@elena.com">contact@2kvisiongroup.com</a><br><a href="mailto:support@elena.com">support@elena.com</a></p>
+							<p></p>
+						</div>
+						<div class="single-address">
+							<i class="fa fa-phone"></i>
+							<h4>Our Phone</h4>
+							<p> (+221) 76 847 4204</p>
+							<p> (+221) 33 123 4567</p>
+						</div>
+						<div class="single-address">
+							<i class="fa fa-clock-o"></i>
+							<h4>Opening Time</h4>
+							<p>Monday to Friday 9:00 - 17:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	{# Google Map #}
+	<div class="contact-map d-none">
+		<div class="map"></div>
+	</div>
+	
+	{# Nos - Partenaires #}
+	<section class="clients overlay" style="background-image:url('images/client-bg.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
+					<div class="section-title">
+						<span class="title-bg">Clients</span>
+						<h1>Our Partners</h1>
+						<p>Nam eleifend, turpis ac laoreet tincidunt, arcu purus ultricies nisl, quis molestie nibh lacus et dui. Nunc efficitur turpis lorem, bibendum dictum libero ornare a. Proin quis metus massa.</p><p>
+					</p></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="clients-slider">
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-1.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-2.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-3.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-4.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-5.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-1.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-2.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+						<!-- Single Client -->
+						<div class="single-client">
+							<a href="#" target="_blank"><img src="images/partner-3.png" alt="#"></a>
+						</div>
+						<!--/ End Single Client -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}

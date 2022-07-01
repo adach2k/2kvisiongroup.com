@@ -1,0 +1,51 @@
+{{ form_start(form) }}
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Nom</label>
+				{{ form_row(form.firstName) }}
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Prénom</label>
+				{{ form_row(form.lastName) }}
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email</label>
+				{{ form_row(form.email) }}
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Fonction (Role)</label>
+				{{ form_row(form.role) }}
+			</div>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputEmail1">Profil</label>
+		{{ form_row(form.profil) }}
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputEmail1">Date de naissance</label>
+		{{ form_row(form.birthDate) }}
+	</div>
+
+	<div class="form-group">
+		<label for="exampleFormControlFile1">Choisir une image de profil</label>
+		{{ form_row(form.imageFile) }}
+		{% if team.imageName %}
+			<img src="{{ vich_uploader_asset(team, 'imageFile')}}" alt="image membre" width="250px" height="auto">
+		{% endif %}
+	</div>
+
+	<button class="btn btn-primary"> Ajouter </button>
+{{ form_end(form) }}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Title Tag -->
+		<title>2K Vision Group &minus; Conception de site & des applications</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
+
+		<!-- Bootstrap Css -->
+		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+		<!-- Magnific Popup CSS -->
+		<link rel="stylesheet" href="{{ asset('css/magnific-popup.min.css') }}">
+		<!-- Fancy Box CSS -->
+		<link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
+		<!-- Owl Carousel CSS -->
+		<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+		<!-- Cube Portfolio CSS -->
+		<link rel="stylesheet" href="{{ asset('css/cubeportfolio.min.css') }}">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="{{ asset('css/niceselect.css') }}">
+		<!-- Slick Nav CSS -->
+		<link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}">
+		<!-- Animate Text -->
+		<link rel="stylesheet" href="{{ asset('css/animate-text.css') }}">
+		
+		<!-- Elena StyleShet -->
+		<link rel="stylesheet" href="{{ asset('css/reset.css') }}">	
+		<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+
+		{% block stylesheets %}
+    {% endblock %}
+	</head>
+
+
+	<body>
+
+		{# Header #}
+		{% include "partials/header.html.twig" %}
+
+		{# CONTENT #}
+		{% block body %}
+		{% endblock %}
+
+		{# Footer #}
+		{% include "partials/footer.html.twig" %}
+
+		<!-- Jquery -->
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
+		<!-- Popper JS -->
+		<script src="{{ asset('js/popper.min.js') }}"></script>
+		<!-- Bootstrap JS -->
+		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+		<!-- Modernizr JS -->
+		<script src="{{ asset('js/modernizr.min.js') }}"></script>
+		<!-- Elena Options JS -->
+		<script src="{{ asset('js/elena-options.js') }}"></script>
+		<!-- Animate Text JS -->
+		<script src="{{ asset('js/animate-text.js') }}"></script>
+		<!-- Fancybox js -->
+		<script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
+		<!-- Nice select JS -->
+		<script src="{{ asset('js/niceselect.js') }}"></script>
+		<!-- Slider Carousel JS -->
+		<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+		<!-- CubePortfolio js -->
+		<script src="{{ asset('js/cubeportfolio.min.js') }}"></script>
+		<!-- Magnific Popup js -->
+		<script src="{{ asset('js/magnific-popup.min.js') }}"></script>
+		<!-- Jquery Easing -->
+    <script src="{{ asset('js/easing.js') }}"></script>
+		<!-- Slick Nav JS -->
+    <script src="{{ asset('js/jquery.slicknav.min.js') }}"></script>
+		<!-- Jquery Parallax -->
+    <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+		<!-- WOW JS -->
+		<script src="{{ asset('js/wow.min.js') }}"></script>
+		<!-- ScrollUp JS -->
+		<script src="{{ asset('js/jquery.scrollUp.min.js') }}"></script>
+		<!-- Counter JS -->
+		<script src="{{ asset('js/waypoints.min.js') }}"></script>
+		<script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+		<!-- Particle JS -->
+		<script src="{{ asset('js/particles.min.js') }}"></script>
+		<!-- Google Map JS -->
+		<script src="{{ asset('js/gmap.min.js') }}"></script>
+		<!-- Main JS -->
+		<script src="{{ asset('js/main.js') }}"></script>
+
+		{% block javascripts %}{% endblock %}
+	</body>
+</html>

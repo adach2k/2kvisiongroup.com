@@ -1,0 +1,18 @@
+{% extends "main.html.twig" %}
+
+{% block body %}
+  {# Breadcrumbs #}
+	<section class="breadcrumbs" style="background-image:url('images/Banner-1.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 pt-4">
+					{# <h2>About Information</h2> #}
+					<ul class="bread-list pt-2 mt-5">
+						<li><a href="{{ path('home') }}">Home</a></li>
+						<li class="active"><a href="{{ path('blog') }}">Blog</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
